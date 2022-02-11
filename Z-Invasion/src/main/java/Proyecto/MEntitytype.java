@@ -1,4 +1,4 @@
-package app;
+package Proyecto;
 
 public enum MEntitytype {
 	personaje,
