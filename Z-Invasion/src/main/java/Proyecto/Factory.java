@@ -1,4 +1,4 @@
-package app;
+package Proyecto;
 
 import static com.almasb.fxgl.dsl.FXGL.entityBuilder;
 import static com.almasb.fxgl.dsl.FXGL.getGameWorld;
@@ -38,6 +38,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
+
 import test.components.Enemigos;
 import test.components.PlayerComponent;
 
