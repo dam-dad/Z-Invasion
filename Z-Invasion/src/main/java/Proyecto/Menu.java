@@ -1,4 +1,4 @@
-package app;
+package proyecto;
 
 
 import com.almasb.fxgl.app.scene.FXGLMenu;
