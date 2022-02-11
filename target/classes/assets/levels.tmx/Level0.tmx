@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="76">
+ <tileset firstgid="1" source="tiles_spritesheet.tsx"/>
+ <layer id="1" name="Capa de patrones 1" width="30" height="30">
+  <data encoding="csv">
+118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,118,127,127,127,
+70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+82,0,0,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+62,62,62,62,62,62,62,62,0,0,43,62,62,62,62,62,62,62,39,103,103,111,103,103,103,111,111,39,0,2684354632,
+1610612863,0,0,0,0,0,0,0,62,62,134,0,0,0,0,0,0,50,44,44,44,50,44,44,44,50,128,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,50,50,50,50,50,50,50,50,128,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,125,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,125,0,0,0,0,125,0,0,0,0,0,0,125,0,0,0,0,0,125,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,111,98,0,98,0,98,0,98,0,0,0,0,0,133,98,0,133,0,98,0,0,133,133,0,0,0,0,2684354632,
+1610612863,0,128,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,111,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,125,125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,0,43,39,0,0,2684354632,
+1610612863,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67,0,0,0,98,0,111,0,43,50,0,0,0,2684354632,
+1610612863,0,0,0,0,0,0,98,0,0,111,111,62,62,62,62,62,62,111,111,111,111,111,111,50,50,0,0,0,2684354632,
+1610612863,0,0,0,111,111,111,111,111,111,99,99,99,99,99,99,50,50,50,50,50,50,50,50,50,0,0,0,0,0,
+1610612863,111,111,111,111,99,99,99,99,99,99,99,99,99,99,99,50,50,50,50,50,50,50,50,0,0,0,0,0,0,
+99,99,99,99,99,0,0,0,0,0,0,99,99,99,99,99,50,50,50,50,50,50,50,0,0,0,0,0,0,46,
+99,99,99,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,
+99,99,99,99,0,0,98,0,0,98,0,0,98,0,98,0,98,0,98,0,98,0,98,0,0,0,0,65,106,48,
+99,99,99,111,111,111,111,111,111,111,111,111,111,111,111,111,86,86,86,86,86,86,86,86,86,86,86,86,86,86
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="0" y="16" width="2100" height="16"/>
+  <object id="2" type="plataforma" x="0" y="276" width="36" height="1540"/>
+  <object id="3" type="plataforma" x="2052" y="72" width="44" height="1604"/>
+  <object id="4" type="plataforma" x="-3.0303" y="212.121" width="563.636" height="63.6364"/>
+  <object id="5" type="plataforma" x="560.606" y="278.788" width="206.061" height="69.697"/>
+  <object id="6" type="plataforma" x="772.727" y="209.091" width="557.576" height="66.6667"/>
+  <object id="7" type="plataforma" x="1190.91" y="275.758" width="69.697" height="139.394"/>
+  <object id="8" type="plataforma" x="1748.48" y="209.091" width="209.091" height="66.6667"/>
+  <object id="9" type="plataforma" x="1751.52" y="281.818" width="133.333" height="133.333"/>
+  <object id="10" type="plataforma" x="1263.64" y="348.485" width="484.848" height="66.6667"/>
+  <object id="12" type="plataforma" x="1466.67" y="212.121" width="69.697" height="139.394"/>
+  <object id="13" type="plataforma" x="1809.21" y="809.091" width="75.6364" height="27.2727"/>
+  <object id="14" type="plataforma" x="1612.12" y="742.424" width="68.6061" height="21.2121"/>
+  <object id="15" type="plataforma" x="1396.97" y="812.121" width="75.7576" height="24.2424"/>
+  <object id="16" type="plataforma" x="896.97" y="809.091" width="89.8182" height="24.2424"/>
+  <object id="17" type="plataforma" x="1603.03" y="978.788" width="145.455" height="66.6667"/>
+  <object id="18" type="plataforma" x="1254.55" y="975.758" width="75.7576" height="72.7273"/>
+  <object id="19" type="plataforma" x="1048.48" y="978.788" width="69.697" height="69.697"/>
+  <object id="20" type="plataforma" x="554.545" y="815.152" width="72.7273" height="27.2727"/>
+  <object id="21" type="plataforma" x="139.394" y="981.818" width="69.697" height="133.333"/>
+  <object id="22" type="plataforma" x="212.121" y="1048.48" width="1469.7" height="66.6667"/>
+  <object id="23" type="plataforma" x="1678.79" y="1048.48" width="348.485" height="69.697"/>
+  <object id="24" type="plataforma" x="72.7273" y="1751.52" width="272.727" height="66.6667"/>
+  <object id="25" type="plataforma" x="0" y="1821.21" width="206.061" height="275.758"/>
+  <object id="26" type="plataforma" x="281.818" y="1678.79" width="1121.21" height="69.697"/>
+  <object id="27" type="plataforma" x="348.485" y="1751.52" width="1048.48" height="66.6667"/>
+  <object id="28" type="plataforma" x="212.121" y="1818.18" width="136.364" height="69.697"/>
+  <object id="29" type="plataforma" x="212.121" y="1960.61" width="63.6364" height="63.6364"/>
+  <object id="30" x="1403.03" y="1754.55" width="272.727" height="57.5758"/>
+  <object id="31" type="plataforma" x="703.03" y="1609.09" width="1112.12" height="66.6667"/>
+  <object id="32" x="1539.39" y="1545.45" width="69.697" height="60.6061"/>
+  <object id="33" type="plataforma" x="772.727" y="1445.45" width="130.303" height="21.2121"/>
+  <object id="34" type="plataforma" x="1748.48" y="1542.42" width="66.6667" height="66.6667"/>
+  <object id="35" type="plataforma" x="1821.21" y="1469.7" width="66.6667" height="69.697"/>
+  <object id="36" x="1403.03" y="1678.79" width="345.455" height="66.6667"/>
+  <object id="37" type="plataforma" x="780.727" y="1822.18" width="830.303" height="66.6667"/>
+  <object id="38" type="plataforma" x="2021.21" y="1963.64" width="78.7879" height="63.6364"/>
+  <object id="40" type="plataforma" x="975.758" y="2033.33" width="1124.24" height="63.6364"/>
+  <object id="41" type="plataforma" x="206.061" y="2033.33" width="769.697" height="63.6364"/>
+  <object id="42" type="plataforma" x="1754.55" y="1536.36">
+   <polygon points="0,0 66.6667,-60.6061 66.6667,-3.0303"/>
+  </object>
+  <object id="43" type="plataforma" x="1678.79" y="1612.12">
+   <polygon points="0,0 75.7576,-72.7273 75.7576,-12.1212"/>
+  </object>
+  <object id="44" type="plataforma" x="1963.64" y="2030.3">
+   <polygon points="0,0 57.5758,-63.6364 57.5758,-6.06061"/>
+  </object>
+  <object id="45" type="plataforma" x="-9.09091" y="9.09091" width="9.09091" height="209.091"/>
+  <object id="46" type="salida" x="2027.27" y="1848.48" width="66.6667" height="112.121"/>
+  <object id="47" x="2084.85" y="1681.82" width="12.1212" height="166.667"/>
+  <object id="48" type="enemigoNormal" x="214" y="976" width="64" height="72"/>
+  <object id="49" type="enemigoNormal" x="352" y="978" width="64" height="72"/>
+  <object id="50" type="enemigoNormal" x="490" y="978" width="64" height="72"/>
+  <object id="51" type="enemigoNormal" x="630" y="978" width="64" height="72"/>
+  <object id="52" type="enemigoNormal" x="1124" y="978" width="64" height="72"/>
+  <object id="53" type="enemigoNormal" x="1402" y="976" width="64" height="72"/>
+  <object id="54" type="enemigoNormal" x="492" y="1606" width="64" height="72"/>
+  <object id="55" type="enemigoNormal" x="420" y="1958" width="64" height="72"/>
+  <object id="56" type="enemigoNormal" x="632" y="1954" width="64" height="72"/>
+  <object id="57" type="enemigoNormal" x="842" y="1958" width="64" height="72"/>
+  <object id="58" type="enemigoNormal" x="982" y="1960" width="64" height="72"/>
+  <object id="59" type="enemigoNormal" x="1122" y="1960" width="64" height="72"/>
+  <object id="60" type="enemigoNormal" x="1260" y="1958" width="64" height="72"/>
+  <object id="61" type="enemigoNormal" x="1402" y="1960" width="64" height="72"/>
+  <object id="62" type="enemigoNormal" x="1542" y="1960" width="64" height="72"/>
+  <object id="63" type="enemigoNormal" x="1404" y="1538" width="64" height="72"/>
+  <object id="64" type="enemigoDisparo" x="1122" y="1538" width="64" height="68"/>
+  <object id="66" type="enemigoDisparo" x="1542" y="1470" width="64" height="68"/>
+  <object id="67" type="muerte" x="1336" y="232" width="126" height="50"/>
+  <object id="68" type="muerte" x="1541" y="231" width="202" height="50"/>
+  <object id="69" type="puntoInicio" x="66" y="72" width="74" height="68"/>
+  <object id="71" type="mensaje1" x="52" y="164" width="210" height="48">
+   <properties>
+    <property name="mensaje" value="Muevete con A y D"/>
+   </properties>
+  </object>
+  <object id="72" type="mensaje2" x="772" y="142" width="310" height="66">
+   <properties>
+    <property name="mensaje" value="salta con &quot;W&quot;, cuidado con el agua eres otaku"/>
+   </properties>
+  </object>
+  <object id="73" type="mensaje3" x="1822" y="960" width="210" height="84">
+   <properties>
+    <property name="mensaje" value="O no! zombies!!! evitalos"/>
+   </properties>
+  </object>
+  <object id="74" type="mensaje4" x="1048" y="904" width="76" height="72">
+   <properties>
+    <property name="mensaje" value="Ahora es cuando te digo que podias dispara con &quot;Espacio&quot;"/>
+   </properties>
+  </object>
+  <object id="75" type="mensajes5" x="70" y="1666" width="208" height="78">
+   <properties>
+    <property name="mensaje" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
