@@ -1,1 +1,1 @@
-Faloos al ahora de cargar mapas.
+Fallos al ahora de cargar mapas.
