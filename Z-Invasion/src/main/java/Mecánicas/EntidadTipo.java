@@ -2,5 +2,5 @@ package Mecánicas;
 
 public enum EntidadTipo {
 
-	PLAYER, MONEDA, PLATAFORMA, PUERTA
+	PLAYER, MONEDA, PLATAFORMA, PUERTA, BALA
 }

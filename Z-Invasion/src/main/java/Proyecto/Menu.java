@@ -51,6 +51,10 @@ public class Menu extends FXGLMenu {
 
 		var view = new KeyView(KeyCode.ESCAPE, Color.BLUE, 24.0);
 
+		var bg = FXGL.texture("background/background.png");
+		bg.setTranslateY(-85);
+		bg.setTranslateX(-450);
+
 		var hbox = new HBox(25, FXGL.getUIFactory().newText("Atras", 14.0), view);
 		hbox.setTranslateX(FXGL.getAppWidth() - 150);
 		hbox.setTranslateY(580);
