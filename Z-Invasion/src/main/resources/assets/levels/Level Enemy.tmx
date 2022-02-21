@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="35" height="15" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="21">
+ <tileset firstgid="1" name="tiles_spritesheet (1)" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../tiles_spritesheet (1).png" width="914" height="936"/>
+ </tileset>
+ <layer id="1" name="Capa de patrones 1" width="35" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+72,72,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,0,
+0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,75,74,74,74,74,51,0,0,0,0,0,0,0,0,67,0,0,58,0,
+0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63,62,62,62,62,
+0,0,0,0,0,0,0,0,0,0,0,0,0,86,0,0,0,0,0,98,0,0,0,0,0,0,86,0,0,0,0,87,87,87,87,
+0,0,0,0,0,0,0,75,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,62,51,0,0,0,87,87,87,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,87,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,87,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,87
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="0" y="-8" width="12" height="1060"/>
+  <object id="2" type="plataforma" x="0" y="1032" width="2192" height="16"/>
+  <object id="3" type="plataforma" x="2192" y="1020" width="260" height="8"/>
+  <object id="4" type="plataforma" x="2096" y="644" width="348" height="52"/>
+  <object id="5" type="plataforma" x="2176" y="716" width="272" height="48"/>
+  <object id="6" type="plataforma" x="2240" y="772" width="204" height="72"/>
+  <object id="7" type="plataforma" x="2312" y="852" width="136" height="184"/>
+  <object id="8" type="plataforma" x="1160" y="772" width="856" height="72"/>
+  <object id="9" type="plataforma" x="492" y="772" width="668" height="72"/>
+  <object id="10" type="plataforma" x="916" y="704" width="72" height="72"/>
+  <object id="11" type="plataforma" x="1120" y="556" width="420" height="68"/>
+  <object id="12" type="plataforma" x="1816" y="700" width="72" height="72"/>
+  <object id="13" type="plataforma" x="8" y="496" width="192" height="32"/>
+  <object id="14" type="plataforma" x="200" y="568" width="84" height="32"/>
+  <object id="15" x="280" y="644" width="64" height="28"/>
+  <object id="16" type="plataforma" x="2432" y="0" width="20" height="1040"/>
+  <object id="17" type="plataforma" x="8" y="0" width="2440" height="56"/>
+  <object id="18" type="puerta" x="2317.7" y="496.243" width="60.6061" height="151.515"/>
+  <object id="19" type="ENEMIGO_NORMAL" x="1328" y="696" width="64" height="72"/>
+  <object id="20" type="ENEMIGO_RANGO" x="2092" y="560" width="84" height="72"/>
+ </objectgroup>
+</map>

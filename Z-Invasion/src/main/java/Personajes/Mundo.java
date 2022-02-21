@@ -14,6 +14,7 @@ import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
 
+import Mecánicas.Controles;
 import Mecánicas.EntidadTipo;
 import javafx.geometry.Point2D;
 import javafx.scene.paint.Color;
@@ -27,14 +28,14 @@ public class Mundo implements EntityFactory {
 		physics.setBodyType(BodyType.DYNAMIC);
 
 		return FXGL.entityBuilder().type(EntidadTipo.PLAYER).from(data).viewWithBBox("player.png").with(physics)
-				.with(new CollidableComponent(true)).with(new Prota()).build();
+				.with(new CollidableComponent(true)).with(new Controles()).build();
 	}
 
-	@Spawns("platform")
+	@Spawns("plataforma")
 	public Entity newPlataforma(SpawnData data) {
 		return FXGL.entityBuilder().type(EntidadTipo.PLATAFORMA).from(data)
 				.bbox(new HitBox(BoundingShape.box(data.<Integer>get("width"), data.<Integer>get("height"))))
-				.with(new PhysicsComponent()).build();
+				.with(new PhysicsComponent()).collidable().build();
 	}
 
 	@Spawns("background")
@@ -49,5 +50,15 @@ public class Mundo implements EntityFactory {
 		Point2D dir = data.get("dir");
 		return FXGL.entityBuilder().type(EntidadTipo.BALA).from(data).viewWithBBox("bullet.png")
 				.with(new ProjectileComponent(dir, 200)).with(new OffscreenCleanComponent()).collidable().build();
+	}
+
+	@Spawns("puerta")
+	public Entity spawnPuerta(SpawnData data) {
+		return FXGL.entityBuilder().type(EntidadTipo.PUERTA).from(data)
+				.bbox(new HitBox(BoundingShape.box(data.<Integer>get("width"), data.<Integer>get("height"))))
+				.with(new CollidableComponent(true))// ponemos Collidable ya que haremos algo al entrar en
+													// contacto.
+				.build();
+
 	}
 }

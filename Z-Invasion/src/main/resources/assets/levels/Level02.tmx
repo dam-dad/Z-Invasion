@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="35" height="15" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="29">
+ <tileset firstgid="1" name="tiles_spritesheet (1)" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../tiles_spritesheet (1).png" width="914" height="936"/>
+ </tileset>
+ <layer id="1" name="Capa de patrones 1" width="35" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,128,17,128,128,128,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,130,128,128,143,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,143,128,128,128,128,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,128,143,143,128,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+131,94,94,94,94,94,107,0,0,0,0,0,130,128,17,128,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,128,128,128,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46,
+0,0,0,0,0,0,0,0,0,0,0,0,0,130,128,143,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58,
+0,0,0,0,0,0,0,131,94,94,107,0,0,0,143,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,119,94,94,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,60,0,0,0,0,0,0,0,0,0,0,0,131,94,94,107,0,0,143,143,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,94,94,94,107,0,0,0,0,0,0,0,0,0,143,
+0,0,0,131,94,94,94,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,131,94,94,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,
+0,0,0,0,0,0,0,0,0,0,119,94,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143,
+0,0,0,0,0,0,0,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,143
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="0" y="278.788" width="484.848" height="66.6667"/>
+  <object id="2" type="plataforma" x="484.848" y="487.879" width="284.848" height="66.6667"/>
+  <object id="3" type="plataforma" x="209.091" y="766.667" width="345.455" height="69.697"/>
+  <object id="4" type="plataforma" x="3.0303" y="-6.06061" width="3.0303" height="287.879"/>
+  <object id="5" type="plataforma" x="3.0303" y="0" width="769.697" height="15.1515"/>
+  <object id="6" type="plataforma" x="700" y="915.152" width="209.091" height="60.6061"/>
+  <object id="7" type="plataforma" x="772.727" y="987.879" width="66.6667" height="63.6364"/>
+  <object id="8" type="plataforma" x="3.0303" y="357.576" width="3.0303" height="687.879"/>
+  <object id="9" type="plataforma" x="6.06061" y="1036.36" width="772.727" height="12.1212"/>
+  <object id="10" type="plataforma" x="851.515" y="1030.3" width="1233.33" height="12.1212"/>
+  <object id="11" type="plataforma" x="2087.88" y="1030.3" width="290.909" height="12.1212"/>
+  <object id="12" type="plataforma" x="2242.42" y="490.909" width="200" height="63.6364"/>
+  <object id="13" type="plataforma" x="2312.12" y="563.636" width="130.303" height="66.6667"/>
+  <object id="14" type="plataforma" x="2384.85" y="633.333" width="63.6364" height="409.091"/>
+  <object id="15" type="plataforma" x="1881.82" y="557.576" width="287.879" height="69.697"/>
+  <object id="16" type="plataforma" x="1406.06" y="703.03" width="342.424" height="66.6667"/>
+  <object id="17" type="plataforma" x="1048.48" y="845.455" width="275.758" height="60.6061"/>
+  <object id="18" type="puerta" x="2381.82" y="342.424" width="60.6061" height="151.515"/>
+  <object id="19" type="plataforma" x="2442.42" y="6.06061" width="15.1515" height="490.909"/>
+  <object id="20" type="plataforma" x="1363.64" y="3.0303" width="1087.88" height="12.1212"/>
+  <object id="21" type="plataforma" x="1184.85" y="0" width="200" height="9.09091"/>
+  <object id="22" type="plataforma" x="769.697" y="-3.0303" width="406.061" height="57.5758"/>
+  <object id="23" type="plataforma" x="766.667" y="60.6061" width="418.182" height="75.7576"/>
+  <object id="24" type="plataforma" x="845.455" y="154.545" width="60.6061" height="193.939"/>
+  <object id="25" type="plataforma" x="918.182" y="357.576" width="196.97" height="130.303"/>
+  <object id="26" type="plataforma" x="984.848" y="484.848" width="130.303" height="139.394"/>
+  <object id="27" type="plataforma" x="906.061" y="142.424" width="281.818" height="212.121"/>
+  <object id="28" type="plataforma" x="1181.82" y="133.333" width="78.7879" height="72.7273"/>
+ </objectgroup>
+</map>

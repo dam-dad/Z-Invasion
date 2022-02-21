@@ -62,7 +62,7 @@ public class App extends GameApplication {
 		FXGL.getGameWorld().addEntityFactory(new Mundo());
 
 		FXGL.spawn("background", new SpawnData(0, 0).put("width", WIDTH).put("height", HEIGHT));
-		FXGL.setLevelFromMap(".tmx");
+		FXGL.setLevelFromMap("Level01.tmx");
 
 		// añade al personaje en una parte del mapa: x y
 		player = FXGL.getGameWorld().spawn("prota", 50, 50);

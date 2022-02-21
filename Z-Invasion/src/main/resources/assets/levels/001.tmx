@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="35">
+ <tileset firstgid="1" name="tiles_spritesheet (1)" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="../tiles_spritesheet (1).png" width="914" height="936"/>
+ </tileset>
+ <layer id="1" name="Capa de patrones 1" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,59,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,0,46,0,0,35,12,
+0,0,0,0,0,0,0,0,0,0,125,125,125,125,125,0,0,0,0,0,58,0,35,143,143,
+59,0,0,0,0,47,0,0,0,0,19,0,0,0,0,12,12,12,12,12,12,12,143,143,143,
+0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,59,0,0,0,0,0,59,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,59,0,0,0,0,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,150,0,0,0,0,0,0,55,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,25,0,0,0,0,0,140,137,142,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,62,62,62,51,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,140,127,127,142,0,0,63,31,0,0,0,0,0,0,0,0,0,0,0,137,137,137,20,
+0,0,0,0,0,0,0,0,0,56,31,0,0,0,0,0,0,0,0,0,0,0,0,0,20,
+0,0,0,0,0,0,0,0,0,56,56,31,0,0,0,0,0,0,0,0,0,0,0,0,32,
+0,0,0,0,0,0,0,0,0,75,62,62,62,51,0,0,0,0,0,0,0,0,0,0,32,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,140,137,137,142,0,0,0,0,0,32,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,
+0,0,0,0,0,0,0,0,0,0,0,0,33,93,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,33,141,0,0,0,0,0,0,0,0,129,92,105,0,
+0,0,0,0,0,0,0,0,0,0,33,153,153,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,41,0,0,0,92,92,153,153,153,0,0,0,0,0,0,0,0,0,0,0,0,
+10,10,10,10,10,10,10,10,153,153,153,153,153,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="3" type="plataforma" x="3.0303" y="1678.79" width="900" height="66.6667"/>
+  <object id="4" type="plataforma" x="560.606" y="1609.09" width="345.455" height="66.6667"/>
+  <object id="5" type="plataforma" x="845.455" y="1478.79" width="57.5758" height="121.212"/>
+  <object id="6" type="plataforma" x="772.727" y="1539.39" width="72.7273" height="66.6667"/>
+  <object id="7" type="plataforma" x="712.121" y="1603.03">
+   <polygon points="0,0 193.939,-193.939 193.939,-6.06061"/>
+  </object>
+  <object id="8" type="plataforma" x="915.152" y="1403.03">
+   <polygon points="0,0 63.6364,0 0,72.7273"/>
+  </object>
+  <object id="14" type="plataforma" x="1481.82" y="1472.73" width="187.879" height="63.6364"/>
+  <object id="15" type="plataforma" x="1057.58" y="1260.61" width="263.636" height="63.6364"/>
+  <object id="16" type="plataforma" x="1469.7" y="909.091" width="200" height="63.6364"/>
+  <object id="17" type="plataforma" x="1045.45" y="775.758" width="348.485" height="57.5758"/>
+  <object id="19" type="plataforma" x="627.273" y="921.212">
+   <polygon points="0,0 275.758,266.667 0,266.667"/>
+  </object>
+  <object id="20" type="plataforma" x="836.364" y="1124.24" width="133.333" height="60.6061"/>
+  <object id="21" type="plataforma" x="633.333" y="703.03" width="200" height="69.697"/>
+  <object id="22" type="plataforma" x="142.424" y="918.182" width="272.727" height="57.5758"/>
+  <object id="23" type="plataforma" x="145.455" y="424.242" width="63.6364" height="33.3333"/>
+  <object id="24" type="plataforma" x="3.0303" y="281.818" width="69.697" height="33.3333"/>
+  <object id="25" type="plataforma" x="145.455" y="142.424" width="63.6364" height="33.3333"/>
+  <object id="26" type="plataforma" x="351.515" y="275.758" width="66.6667" height="39.3939"/>
+  <object id="27" type="plataforma" x="351.515" y="490.909" width="72.7273" height="39.3939"/>
+  <object id="28" type="plataforma" x="554.545" y="418.182" width="69.697" height="39.3939"/>
+  <object id="29" type="plataforma" x="484.848" y="142.424" width="72.7273" height="39.3939"/>
+  <object id="30" type="plataforma" x="1048.48" y="281.818" width="439.394" height="63.6364"/>
+  <object id="31" type="plataforma" x="1669.7" y="145.455">
+   <polygon points="0,0 -175.758,196.97 75.7576,196.97"/>
+  </object>
+  <object id="32" type="plataforma" x="1672.73" y="145.455">
+   <polygon points="0,0 72.7273,0 75.7576,175.758"/>
+  </object>
+  <object id="33" type="plataforma" x="1487.88" y="287.879">
+   <polygon points="0,0 42.4242,0 6.06061,45.4545"/>
+  </object>
+  <object id="34" type="moneda" x="1124" y="1124" width="60" height="60"/>
+ </objectgroup>
+</map>
