@@ -1,1 +1,0 @@
-Zona para testeo de mecánicas, personajes y escenarios.

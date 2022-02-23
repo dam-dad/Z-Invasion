@@ -1,6 +1,6 @@
 # Z-Invasion
 
-# ![](D:\Downloads\PenDrive Clase\2021-2022\DAD\Eclipse\Z-Invasion\Z-Invasion\src\main\resources\assets\logo\logo.png)
+# ![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Zombie_Panic%21_Source_Logo.png)
 
 Juego de plataformas basado en Metal Slug.
 
