@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="70" tileheight="70" nextobjectid="39">
+ <tileset firstgid="1" name="dungeon" tilewidth="70" tileheight="70" spacing="2" tilecount="42" columns="7">
+  <image source="dungeon.png" width="512" height="448"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="25" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,
+0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,
+1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,
+0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4,4,4,4,4,4,4,4,4,4,4,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4,4,4,4,4,4,4,4,0,0,0,4,4,4,4,4,4,
+0,0,0,0,0,0,0,0,0,38,38,38,38,38,38,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="-10.228" y="137.121" width="220.456" height="71.0909"/>
+  <object id="2" type="plataforma" x="-2.228" y="-2.8788" width="16.456" height="133.758"/>
+  <object id="3" type="plataforma" x="1.772" y="565.121" width="16.456" height="477.758"/>
+  <object id="4" type="plataforma" x="353.772" y="209.121" width="208.456" height="65.7576"/>
+  <object id="5" type="plataforma" x="777.772" y="142.455" width="199.123" height="68.4243"/>
+  <object id="6" type="plataforma" x="985.772" y="213.121" width="200.456" height="64.4243"/>
+  <object id="7" type="plataforma" x="1189.77" y="141.121" width="67.1227" height="69.7576"/>
+  <object id="8" type="plataforma" x="1403.11" y="282.455" width="139.123" height="68.4243"/>
+  <object id="9" type="plataforma" x="1473.77" y="213.121" width="64.456" height="64.4243"/>
+  <object id="10" type="plataforma" x="353.772" y="770.455" width="904.456" height="72.4243"/>
+  <object id="11" type="plataforma" x="417.772" y="841.121" width="769.789" height="64.4243"/>
+  <object id="12" type="plataforma" x="561.772" y="911.788" width="563.123" height="65.7576"/>
+  <object id="13" type="plataforma" x="1329.77" y="909.121" width="420.456" height="69.7576"/>
+  <object id="14" type="plataforma" x="-6.228" y="217.121" width="12.456" height="269.758"/>
+  <object id="15" type="plataforma" x="557.772" y="557.121" width="140.456" height="77.7576"/>
+  <object id="16" type="plataforma" x="1053.77" y="422.455" width="135.123" height="64.4243"/>
+  <object id="17" type="plataforma" x="-6.228" y="489.121" width="216.456" height="77.7576"/>
+  <object id="18" type="plataforma" x="769.772" y="421.121" width="64.456" height="69.7576"/>
+  <object id="19" type="plataforma" x="1049.77" y="485.121" width="72.456" height="77.7576"/>
+  <object id="20" type="plataforma" x="1329.77" y="349.121" width="71.1227" height="69.7576"/>
+  <object id="21" type="plataforma" x="629.772" y="491.788" width="72.456" height="59.0909"/>
+  <object id="22" type="plataforma" x="79.1053" y="571.788" width="128.456" height="61.7576"/>
+  <object id="23" type="plataforma" x="211.105" y="630.455" width="68.456" height="67.0909"/>
+  <object id="24" type="plataforma" x="71.1053" y="701.121" width="71.1227" height="65.7576"/>
+  <object id="25" type="plataforma" x="1737.77" y="21.1212" width="4.456" height="893.758"/>
+  <object id="26" type="reaparecer" x="84" y="47" width="8" height="10"/>
+  <object id="27" type="plataforma" x="25.772" y="-2.879" width="1724.46" height="5.758"/>
+  <object id="28" type="enemyZombie" x="360" y="621" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="1339"/>
+   </properties>
+  </object>
+  <object id="29" type="enemyZombie" x="876" y="261" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="844"/>
+   </properties>
+  </object>
+  <object id="30" type="enemyZombie" x="1472" y="69" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="844"/>
+   </properties>
+  </object>
+  <object id="31" type="enemyZombie" x="72" y="341" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="248"/>
+   </properties>
+  </object>
+  <object id="32" type="enemyZombie" x="1252" y="613" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="1124"/>
+   </properties>
+  </object>
+  <object id="33" type="muerte" x="30.303" y="981.818" width="512.121" height="69.697"/>
+  <object id="35" type="muerte" x="971.212" y="998.485" width="706.06" height="27.2728"/>
+  <object id="36" type="enemyZombie" x="548.848" y="395.667" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="844"/>
+   </properties>
+  </object>
+  <object id="37" type="enemyZombie" x="1488.24" y="762.333" width="72" height="142">
+   <properties>
+    <property name="patrolEndx" type="int" value="844"/>
+   </properties>
+  </object>
+  <object id="38" type="puerta" x="1651.94" y="788.515" width="84" height="126"/>
+ </objectgroup>
+</map>
