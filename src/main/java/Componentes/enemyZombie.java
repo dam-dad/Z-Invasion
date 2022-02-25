@@ -25,7 +25,10 @@ public class enemyZombie extends Component{
 	private Duration duration;
 	private Double distancia;
 	private double speed;
-	
+
+	/**
+	 *En este constructor de la clase, se encarga de los patrones del Enemigo
+	 */
 	public enemyZombie(int patrolEndx) {
 		this.patrolEndx = patrolEndx;
 
@@ -39,7 +42,9 @@ public class enemyZombie extends Component{
 		texture = new AnimatedTexture(animWalk);
 		texture.loop();
 	}
-
+	/**
+	 *En este método se añade el tiempo, la duración y distancia de recorrido del enemigo
+	 */
 	@Override
 	public void onAdded() {
 		distancia = patrolEndx - entity.getX();
@@ -50,7 +55,9 @@ public class enemyZombie extends Component{
 		entity.getTransformComponent().setScaleOrigin(new Point2D(2, 2));
 		entity.getViewComponent().addChild(texture);
 	}
-
+	/**
+	 *En este método s eencarga de que el enemigo camine 
+	 */
 	@Override
 	public void onUpdate(double tpf) {
 		if (timer.elapsed(duration)) {
