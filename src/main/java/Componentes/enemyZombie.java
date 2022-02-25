@@ -9,6 +9,10 @@ import com.almasb.fxgl.time.LocalTimer;
 import javafx.geometry.Point2D;
 import javafx.util.Duration;
 
+/**
+ *Enemigo
+ */
+
 public class enemyZombie extends Component{
 
 	private AnimatedTexture texture;
@@ -21,8 +25,6 @@ public class enemyZombie extends Component{
 	private Duration duration;
 	private Double distancia;
 	private double speed;
-	
-	
 	
 	public enemyZombie(int patrolEndx) {
 		this.patrolEndx = patrolEndx;
