@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.1" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="70" tileheight="70" nextobjectid="40">
+ <tileset firstgid="1" name="dungeon" tilewidth="70" tileheight="70" spacing="2" tilecount="42" columns="7">
+  <image source="dungeon.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="43" name="tiles_spritesheet (1)" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="tiles_spritesheet (1).png" width="914" height="936"/>
+ </tileset>
+ <layer name="Capa de Patrones 1" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,167,167,167,167,167,0,0,2,2,2,2,2,2,2,2,2,2,2,2,
+0,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,0,0,2,9,9,9,9,9,9,9,9,9,9,9,
+2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,9,9,9,9,9,9,9,9,9,9,9,
+8,8,8,8,8,8,8,8,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2,9,9,9,9,9,
+8,8,8,8,8,8,8,8,8,8,2,2,0,0,0,167,167,167,0,0,0,0,0,0,0,0,2,9,9,9,
+8,8,8,8,8,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,167,167,0,0,0,0,0,0,0,0,
+8,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,167,0,0,0,0,
+8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,167,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,167,0,0,167,167,0,0,0,0,
+0,0,0,0,0,0,0,0,0,1,145,145,145,145,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+1,1,1,1,1,1,1,1,1,5,86,86,86,86,1,145,145,145,145,1,145,145,145,145,145,145,145,145,145,145,
+1,1,1,1,1,1,1,1,1,9,86,86,86,86,1,86,86,86,86,1,86,86,86,86,86,86,86,86,86,86,
+23,23,24,24,24,23,8,22,8,8,86,86,86,86,1,86,86,86,86,8,86,86,86,86,86,86,86,86,86,86,
+24,24,23,23,24,24,24,22,22,21,21,8,86,86,8,8,86,86,8,8,86,86,86,86,86,86,16,86,86,86,
+39,39,39,39,39,39,39,39,39,39,39,39,39,39,39,41,41,41,41,41,41,41,41,41,41,41,41,86,86,86
+</data>
+ </layer>
+ <objectgroup name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="1.29558" y="911.424" width="4.06014" height="208.652"/>
+  <object id="2" type="messagePrompt" x="62.5681" y="930.469" width="173" height="123.045">
+   <properties>
+    <property name="message" value="Pongamos ese plataformeo en marcha"/>
+   </properties>
+  </object>
+  <object id="3" type="reaparecer" x="101.356" y="965.727" width="8" height="10"/>
+  <object id="4" type="plataforma" x="-8.81877" y="1047.5" width="632.183" height="72.5947"/>
+  <object id="5" type="plataforma" x="630.409" y="979.818" width="68.683" height="72.4697"/>
+  <object id="6" type="plataforma" x="977.378" y="981.121" width="69.683" height="70.9697"/>
+  <object id="7" type="plataforma" x="1332.94" y="1050.32" width="70.183" height="69.9697"/>
+  <object id="8" type="plataforma" x="1469.41" y="953.288" width="70.183" height="21.4394"/>
+  <object id="9" type="plataforma" x="1397.91" y="743.765" width="143.183" height="24.4697"/>
+  <object id="10" type="plataforma" x="1681.91" y="814.765" width="139.183" height="24.4697"/>
+  <object id="11" type="plataforma" x="1681.41" y="953.765" width="138.683" height="24.4697"/>
+  <object id="12" type="plataforma" x="1889.41" y="884.265" width="142.183" height="24.4697"/>
+  <object id="13" type="plataforma" x="1050.91" y="673.765" width="207.516" height="24.4697"/>
+  <object id="14" type="plataforma" x="-2.42483" y="489.765" width="632.85" height="68.4697"/>
+  <object id="15" type="plataforma" x="765.575" y="393.098" width="356.849" height="24.4697"/>
+  <object id="16" type="plataforma" x="596.909" y="560.765" width="173.516" height="69.4697"/>
+  <object id="17" type="plataforma" x="700.242" y="629.765" width="139.849" height="70.4697"/>
+  <object id="18" type="plataforma" x="1260.24" y="353.098" width="836.849" height="24.4697"/>
+  <object id="19" type="plataforma" x="1331.49" y="487.765" width="284.266" height="71.803"/>
+  <object id="20" type="plataforma" x="1609.58" y="563.765" width="207.516" height="64.4697"/>
+  <object id="21" type="plataforma" x="1818.91" y="631.765" width="207.516" height="67.1364"/>
+  <object id="22" type="plataforma" x="1261.58" y="387.765" width="71.516" height="100.47"/>
+  <object id="23" type="plataforma" x="2103.76" y="703.765" height="438.47"/>
+  <object id="25" type="plataforma" x="2084.85" y="29.2498" width="9.09091" height="317.258"/>
+  <object id="26" type="plataforma" x="1.51515" y="168.644" width="9.09091" height="317.258"/>
+  <object id="27" type="plataforma" x="-0.22753" y="831.432" width="139.849" height="70.4697"/>
+  <object id="28" type="plataforma" x="139.166" y="758.705" width="206.516" height="70.4697"/>
+  <object id="29" type="plataforma" x="354.318" y="692.038" width="264.091" height="70.4697"/>
+  <object id="30" type="muerte" x="704" y="1001.52" width="258.666" height="121.212"/>
+  <object id="31" type="muerte" x="1397.94" y="1050" width="688.969" height="69.697"/>
+  <object id="32" type="muerte" x="1055.52" y="1053.03" width="267.757" height="69.697"/>
+  <object id="33" type="puerta" x="1979.21" y="115.909" width="84" height="228.788"/>
+  <object id="34" type="moneda" x="136.364" y="275.758" width="69.697" height="69.697"/>
+  <object id="36" type="messagePrompt" x="216.53" y="422.576" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="coge esa moneda!!"/>
+   </properties>
+  </object>
+  <object id="37" type="messagePrompt" x="792.288" y="334.697" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="Si ves la puntuación de arriba"/>
+   </properties>
+  </object>
+  <object id="38" type="messagePrompt" x="1261.98" y="292.273" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="Una moneda,100? un poco exagerado pero bien"/>
+   </properties>
+  </object>
+  <object id="39" type="messagePrompt" x="395.318" y="977.871" width="173" height="68.5">
+   <properties>
+    <property name="message" value="El agua te mata, atento."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
