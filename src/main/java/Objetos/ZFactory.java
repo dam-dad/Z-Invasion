@@ -36,7 +36,9 @@ import javafx.util.Duration;
  */
 
 public class ZFactory implements EntityFactory {
-
+	/**
+	 *Creamos la plataforma con sus propiedades
+	 */
 	@Spawns("plataforma")
 	public Entity newPlataforma(SpawnData data) {
 
@@ -48,8 +50,9 @@ public class ZFactory implements EntityFactory {
                 .build();
 	}
 
-	
-	
+	/**
+	 * Creamos la moneda con sus propiedades
+	 */
 	@Spawns("moneda")
 	public Entity newMoneda(SpawnData data) {
 
@@ -61,7 +64,9 @@ public class ZFactory implements EntityFactory {
 	                .with(new CollidableComponent(true))
 	                .build();
 	}
-	
+	/**
+	 * Creamos la opcion de que el jugador muera con us propiedades
+	 */
 	@Spawns("muerte")
 	public Entity newmuerte(SpawnData data) {
 
@@ -71,9 +76,10 @@ public class ZFactory implements EntityFactory {
 				.bbox(new HitBox(BoundingShape.box(data.<Integer>get("width"), data.<Integer>get("height"))))
 				.build();
 	}
-	
-	
-	
+
+	/**
+	 *Cremos el jugador con sus propiedades
+	 */
 	@Spawns("jugador")
 	public Entity newPlayer(SpawnData data) {
 
@@ -90,16 +96,16 @@ public class ZFactory implements EntityFactory {
                 //.bbox(new HitBox (BoundingShape.box(30,30)) )
                 .viewWithBBox(new Rectangle(30,30, Color.BLUE))
                 .with(physics)
-                .with(new CollidableComponent(true))//<--Dice que es posible colicionar con el objeto, nos servirá para interctuar con objetos
+                .with(new CollidableComponent(true))//<--Dice que es posible colicionar con el objeto, nos servirï¿½ para interctuar con objetos
                 .with(new PlayerController())
                 .build();
 				
 		
 	}
 
-	
-	
-	// Crea un fondo de color negro
+	/**
+	 * Crea un fondo de color negro
+	 */
 	@Spawns("Background")
 	public Entity spawnBackground(SpawnData data) {
 		 return FXGL.entityBuilder()
@@ -109,7 +115,9 @@ public class ZFactory implements EntityFactory {
 	                .build();
 	}
 
-	// Creamos la puerta con sus propiedades
+	/**
+	 * Creamos la puerta con sus propiedades
+	 */
 	@Spawns("puerta")
 	public Entity spawnPuerta(SpawnData data) {
 		return FXGL.entityBuilder().type(EntityType.PUERTA).from(data)
@@ -118,7 +126,9 @@ public class ZFactory implements EntityFactory {
 				.build();
 
 	}
-
+	/**
+	 *tTodo eso inicializa y crea el bojeto de la bala
+	 */
 	@Spawns("bullet")
 	public Entity newBullet(SpawnData data) {
 		Point2D dir = data.get("dir");
@@ -129,7 +139,9 @@ public class ZFactory implements EntityFactory {
 				.collidable()
 				.build();
 	}
-
+	/**
+	 *tTodo eso inicializa y crea el objeto del enemigo
+	 */
 	@Spawns("enemyZombie")
 	public Entity newEnemyZombie(SpawnData data) {
 
@@ -146,6 +158,9 @@ public class ZFactory implements EntityFactory {
 
 		return e;
 	}
+	/**
+	 *Creamos los mensajes con sus propiedades
+	 */
 	@Spawns("messagePrompt")
     public Entity newMessagePrompt(SpawnData data) {
 		var text = FXGL.getUIFactory().newText(data.get("message"), Color.BLACK, 20.0);
@@ -160,7 +175,9 @@ public class ZFactory implements EntityFactory {
                 .opacity(0)
                 .build();
     }
-	
+	/**
+	 * Dando la propiedad para que el jugador pueda reaparecer
+	 */
 	 @Spawns("reaparecer")
 	    public Entity spawnSpawn(SpawnData data) {
 	        return FXGL.entityBuilder()
