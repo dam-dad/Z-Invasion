@@ -52,20 +52,20 @@ public class PlayerController extends Component {
 	public void left() {
 		
 		getEntity().setScaleX(-1);
-		physics.setVelocityX(-250);
+		physics.setVelocityX(-300);
 	}
 
 	public void right() {
 		
 		getEntity().setScaleX(1);
-		physics.setVelocityX(250);
+		physics.setVelocityX(300);
 	}
 
 	public void jump() {
 		if (jumps == 0) {
             return;
 		}
-        physics.setVelocityY(-250);
+        physics.setVelocityY(-270);
 
         jumps--;
 	}
