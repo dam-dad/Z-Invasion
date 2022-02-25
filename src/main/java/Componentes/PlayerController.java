@@ -32,6 +32,9 @@ public class PlayerController extends Component {
 	public PlayerController() {
 	
     }
+	/**
+	 *En este método hace que el máximo salto sea 2 y el jugador vaya al suelo
+	 */
     public void onAdded() {
         physics.onGroundProperty().addListener((obs, old, isOnGround) -> {
             if (isOnGround) {
@@ -44,23 +47,31 @@ public class PlayerController extends Component {
     public void onUpdate(double tpf) {
        
     }
-
+	/**
+	 *En este método se encarga de que el jugador se mueva
+	 */
     private boolean isMoving() {
         return physics.isMovingX();
     }
-	
+	/**
+	 *En este método se encarga de que el jugador vaya por la izquierda
+	 */
 	public void left() {
 		
 		getEntity().setScaleX(-1);
 		physics.setVelocityX(-300);
 	}
-
+	/**
+	 *En este método se encarga de que el jugador vaya por la derecha
+	 */
 	public void right() {
 		
 		getEntity().setScaleX(1);
 		physics.setVelocityX(300);
 	}
-
+	/**
+	 *En este método se encarga de que el jugador pueda saltar
+	 */
 	public void jump() {
 		if (jumps == 0) {
             return;
@@ -69,12 +80,16 @@ public class PlayerController extends Component {
 
         jumps--;
 	}
-	
+	/**
+	 *En este método se encarga de que el jugador pueda detenerse
+	 */
 	public void stop() {
         physics.setVelocityX(0);
     }
 
-	
+	/**
+	 *En estos método hace que sea posible que el jugador pueda disparar
+	 */
 	public void shoot() {
 		if(shoot==true) {
 			Point2D center = entity.getCenter();
@@ -88,4 +103,5 @@ public class PlayerController extends Component {
 		shoot=true;
 	}
 }
+
 
