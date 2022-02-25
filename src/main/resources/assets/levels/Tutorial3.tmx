@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="45" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" name="dungeon" tilewidth="70" tileheight="70" spacing="2" tilecount="42" columns="7">
+  <image source="dungeon.png" width="512" height="448"/>
+ </tileset>
+ <layer id="1" name="Capa de Patrones 1" width="45" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1,1,3,1,1,3,1,3,1,1,1,3,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,2,3,2,2,1,
+1,1,1,1,8,8,8,8,8,8,8,8,8,8,10,8,8,8,8,8,8,8,8,21,21,21,8,8,8,8,8,8,8,8,8,8,8,17,18,8,8,8,8,8,8,
+40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="1" type="puerta" x="3062" y="281.606" width="84" height="208.788"/>
+  <object id="2" type="reaparecer" x="104" y="455" width="8" height="10"/>
+  <object id="3" type="plataforma" x="279.575" y="489.765" width="2864.85" height="72.4697"/>
+  <object id="4" type="plataforma" x="283.575" y="195.765" width="2864.85" height="81.4697"/>
+  <object id="5" type="plataforma" x="-0.425" y="263.265" width="276.85" height="81.4697"/>
+  <object id="6" type="plataforma" x="1.575" y="563.265" width="276.85" height="81.4697"/>
+  <object id="7" type="plataforma" x="11.4545" y="353.371" width="9.09091" height="221.258"/>
+  <object id="8" type="messagePrompt" x="81.5" y="503.061" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="Vamos al contexto"/>
+   </properties>
+  </object>
+  <object id="9" type="messagePrompt" x="365.5" y="419.061" width="173" height="65.8788">
+   <properties>
+    <property name="message" value="Eres un ... cubo? Deberías ser un heroe de accion de los 90"/>
+   </properties>
+  </object>
+  <object id="10" type="messagePrompt" x="763.352" y="349.641" width="173" height="129.879">
+   <properties>
+    <property name="message" value="Bueno todavía estamos lejos del Deadpoint y el dibujate puede hacer algo"/>
+   </properties>
+  </object>
+  <object id="11" type="messagePrompt" x="1150.83" y="415.061" width="173" height="73.8788">
+   <properties>
+    <property name="message" value="De acuerdo eres un cubo anónimo que debe parar un apocalipsis zombie"/>
+   </properties>
+  </object>
+  <object id="12" type="messagePrompt" x="1551.09" y="345.641" width="173" height="129.879">
+   <properties>
+    <property name="message" value="Un poco cliché pero sigues siendo un héroe de acción"/>
+   </properties>
+  </object>
+  <object id="13" type="messagePrompt" x="1907.27" y="431.061" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="Un Cubo de Acción"/>
+   </properties>
+  </object>
+  <object id="14" type="messagePrompt" x="2336.86" y="338.974" width="173" height="141.879">
+   <properties>
+    <property name="message" value="Ya verás que los zombies son objetivos fáciles y previsibles"/>
+   </properties>
+  </object>
+  <object id="15" type="messagePrompt" x="2693.5" y="412.394" width="173" height="57.8788">
+   <properties>
+    <property name="message" value="Yo te seguiré acompañando, vamos."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" width="40" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="15">
+ <tileset firstgid="1" name="dungeon" tilewidth="70" tileheight="70" spacing="2" tilecount="42" columns="7">
+  <image source="dungeon.png" width="512" height="448"/>
+ </tileset>
+ <tileset firstgid="43" name="tiles_spritesheet (1)" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="tiles_spritesheet (1).png" width="914" height="936"/>
+ </tileset>
+ <layer id="1" name="Capa de Patrones 1" width="40" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+9,9,9,13,9,9,9,9,9,9,9,9,9,9,9,9,9,18,18,9,9,32,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,9,13,9,9,9,9,18,9,34,34,34,34,34,9,9,9,9,9,9,32,18,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,9,13,9,9,9,9,9,9,9,9,9,9,18,17,18,17,18,9,9,32,18,17,18,9,9,9,9,9,9,9,9,9,9,9,9,9,0,0,
+0,0,0,0,0,0,9,17,13,9,9,9,9,9,9,9,9,9,9,9,9,32,18,9,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,1,0,0,0,0,0,0,0,0,0,0,0,83,0,0,1,1,1,9,9,
+1,1,1,1,2,1,1,1,2,2,2,1,1,1,2,1,2,1,9,10,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,9,9,9,9,9,
+41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41,41
+</data>
+ </layer>
+ <objectgroup id="2" name="Capa de Objetos 1">
+  <object id="1" type="plataforma" x="0.076" y="561.182" width="2446.85" height="66.6364"/>
+  <object id="2" type="plataforma" x="2450.08" y="489.682" width="209.348" height="69.1364"/>
+  <object id="3" type="plataforma" x="2660.33" y="420.932" width="139.651" height="69.1364"/>
+  <object id="4" type="plataforma" x="1261.33" y="490.765" width="209.348" height="69.1364"/>
+  <object id="5" type="reaparecer" x="117.212" y="428.333" width="8" height="10"/>
+  <object id="6" type="plataforma" x="1.30326" y="280.485" width="4.06014" height="281.152"/>
+  <object id="7" type="plataforma" x="11.2417" y="278.682" width="408.183" height="70.9697"/>
+  <object id="8" type="plataforma" x="420.575" y="350.182" width="1469.18" height="69.303"/>
+  <object id="9" type="plataforma" x="1889.57" y="280.848" width="770.85" height="68.9697"/>
+  <object id="10" type="plataforma" x="2661.48" y="211.545" width="138.668" height="70.9697"/>
+  <object id="11" type="messagePrompt" x="34.7121" y="486.212" width="173" height="70">
+   <properties>
+    <property name="message" value="Bienvenido usuario, para avanzar es con &quot;D&quot;"/>
+   </properties>
+  </object>
+  <object id="12" type="messagePrompt" x="919.561" y="483.182" width="173" height="70">
+   <properties>
+    <property name="message" value="Para saltar es con la &quot;W&quot;,tienes doble salto :)"/>
+   </properties>
+  </object>
+  <object id="13" type="messagePrompt" x="2001.38" y="483.182" width="173" height="70">
+   <properties>
+    <property name="message" value="Sigue, los carteles para avanzar en las pantallas"/>
+   </properties>
+  </object>
+  <object id="14" type="puerta" x="2709.52" y="295.576" width="84" height="124"/>
+ </objectgroup>
+</map>
