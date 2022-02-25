@@ -51,9 +51,9 @@ public class App  extends GameApplication {
 	/**
 	 * Z- Invasion
 	 *Dessarrollo
-	 *	Joel Jesús Rosales
-	 *	Guillermo Rodríguez Pérez
-	 *	Daniel Plasencia Orán
+	 *	Joel JesÃºs Rosales
+	 *	Guillermo RodrÃ­guez PÃ©rez
+	 *	Daniel Plasencia OrÃ¡n
 	 */
 	
 	
@@ -90,7 +90,7 @@ public class App  extends GameApplication {
 	
 	
 	/**
-	 * Valores ajustes iniciales como tamaño de ventana nombre y menu. 
+	 * Valores ajustes iniciales como tamaÃ±o de ventana nombre y menu. 
 	 */
 	@Override
 	protected void initSettings(GameSettings settings) {
@@ -106,10 +106,18 @@ public class App  extends GameApplication {
 
 					"Z-Invasion",
 					"Dessarrollo",
-					 "*	Joel Jesús Rosales",
-					 "*	Guillermo Rodríguez Pérez",
-					 "*	Daniel Plasencia Orán",
-					"Este juego tenía como plan ser una juego inspirado en Metal Slug y Megaman"
+					 "*	Joel Jesus Rosales",
+					 "*	Guillermo Rodiguez Perez",
+					 "*	Daniel Plasencia Oran",
+					"Este juego tenia como plan ser una juego inspirado en ",
+					"Metal Slug y Megaman, un juego pequeño y con poca "
+					+ "jugabilidad pero con amor, aunque con amor no se ",
+					" come asi que espero que difrutes o no.",
+					"Como diria William Shakespeare 'amame o odiame, me da igual, ",
+					"si me amas estaré entu corazon, si me odias siempre ",
+					"estare en tu mente.",
+					"Si he sitado William Shakespeare, pedante se queda corta la palabra. ",
+					"Pero basta de chachara y ponte a jugar e intenta una no hit."
 					
 				)
 				);
@@ -159,7 +167,7 @@ public class App  extends GameApplication {
         
         
         /**
-    	 * Iniciaría la música pero no va, desconocemos el porqué 
+    	 * IniciarÃ­a la mÃºsica pero no va, desconocemos el porquÃ© 
     	 */
         FXGL.onKeyDown(KeyCode.L, () -> {
         	FXGL.play("Action_B.wav");
@@ -173,12 +181,12 @@ public class App  extends GameApplication {
 	  
 	
 	/**
-	 *Pone la puntuación
+	 *Pone la puntuaciÃ³n
 	 */
 	 @Override
 	    protected void initGameVars(Map<String, Object> vars) {
 	       
-	        //Creamos la ventana de puntuación
+	        //Creamos la ventana de puntuaciÃ³n
 	    	vars.put("score", 0);
 	    }
 	
@@ -212,7 +220,7 @@ public class App  extends GameApplication {
         StringBuilder builder = new StringBuilder();
         builder.append("Game Over!\n\n");
        
-            builder.append("Has llegado al final del juego!, (si lo sé es un final muy abierto pero que quereis, ya sacaremos expansión, o no)\n\n");
+            builder.append("Has llegado al final del juego!, (si lo se, un final muy abierto pero que quereis, ya sacaremos expansion, o no)\n\n");
         
         builder.append("Monedas obtenidas: ")
                 .append(FXGL.geti("score"))
@@ -226,7 +234,7 @@ public class App  extends GameApplication {
 	/**
 	 *Fisicas del mundo y coliciones
 	 */
-	// PARTES DE FÍSICAS
+	// PARTES DE FÃ�SICAS
 	protected void initPhysics() {
 
 		// Acciones con las monedas
@@ -280,7 +288,7 @@ public class App  extends GameApplication {
 			protected void onCollisionBegin(Entity player, Entity pill) {
 				 
 				player.removeFromWorld();
-	               //avanzamos de número
+	               //avanzamos de nÃºmero
 	                InicioLevel++;
 	                if(InicioLevel>=13) {
 	                	 
@@ -331,8 +339,19 @@ public class App  extends GameApplication {
 	            		Entity player7 =new Entity();
 	            		player7= FXGL.getGameWorld().spawn("jugador", s7);
 		                FXGL.getGameScene().getViewport().bindToEntity(player7, FXGL.getAppWidth() / 2, FXGL.getAppHeight() / 2);
-		                gameOver(true);
+		                
 		                break;
+		                
+	            	case 8:
+	            		
+	            		FXGL.setLevelFromMap("Tutorial1.tmx");
+	            		Entity player91 =new Entity();
+	            		player91= FXGL.getGameWorld().spawn("jugador", s9);
+		                FXGL.getGameScene().getViewport().bindToEntity(player91, FXGL.getAppWidth() / 2, FXGL.getAppHeight() / 2);
+		                
+	            		gameOver(true);
+	            		
+	            		break;
 		                
 	            		case 9:	
 		            		
@@ -582,7 +601,7 @@ public class App  extends GameApplication {
 	}
 	
 	/**
-	 *Interfaz gráfica para la puntuación
+	 *Interfaz grÃ¡fica para la puntuaciÃ³n
 	 */
 protected void initUI() {
 	
@@ -598,7 +617,7 @@ protected void initUI() {
     
     scoreText.textProperty().bind(getip("score").asString());
 
-    //Añadimos estos elementos
+    //AÃ±adimos estos elementos
     
     addUINode(coin, 130, 15);
     addUINode(scoreText, 170, 48);
@@ -612,3 +631,4 @@ protected void initUI() {
 	
 	
 }
+
