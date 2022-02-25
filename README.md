@@ -3,6 +3,7 @@
 # ![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Zombie_Panic%21_Source_Logo.png)
 
 Juego de plataformas basado en Metal Slug.
+Para dicho proyecto decidimos usar el motor de FX especializado para creación de videojuegos, FXGL.
 
 Desarrollado por:
 
@@ -13,7 +14,7 @@ Desarrollado por:
 **Links de interés**
 
 Aquí podrás consultar las principales fuentes de información en las que nos hemos basado a la hora de llevar a cabo el videojuego.
-
+- [FXGL](http://almasb.github.io/FXGLGames/)
 - [Repositorio del juego](https://mvnrepository.com/artifact/com.github.almasb/fxgl)
 - [Creación de un enemigo](https://www.youtube.com/watch?v=rys4Ko57oOs&ab_channel=AlmasBaimagambetov)
 - [Crear las plataformas y controles](https://www.youtube.com/watch?v=37wfF9GW1vQ&ab_channel=AlmasBaimagambetov)
