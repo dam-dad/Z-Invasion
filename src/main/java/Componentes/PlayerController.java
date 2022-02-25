@@ -16,38 +16,25 @@ import javafx.geometry.Point2D;
 import javafx.scene.image.Image;
 import javafx.util.Duration;
 
+/**
+ *Propiedades del personaje principal
+ */
+
 public class PlayerController extends Component {
 
 	private PhysicsComponent physics;
 
 	 int jumps = 2;
-	
-	 private AnimatedTexture texture;
-	
-	private AnimationChannel animIdle, animWalk;
 
-	
+	boolean shoot=false;
 	
 	
 	public PlayerController() {
-		/*Image image = image("assets/texture/runrun.png");
-		
-		animIdle=new AnimationChannel(image, 1, 84/1, 81, Duration.seconds(1), 1, 1);
-        animWalk = new AnimationChannel(image, 4, 32, 42, Duration.seconds(0.66), 0, 3);
-		
-		texture = new AnimatedTexture(animIdle);
-        texture.loop();*/
+	
     }
-	
-	
     public void onAdded() {
-        
-    	/*entity.getTransformComponent().setScaleOrigin(new Point2D(16, 21));
-        entity.getViewComponent().addChild(texture);
-    	*/
         physics.onGroundProperty().addListener((obs, old, isOnGround) -> {
             if (isOnGround) {
-                //play("land.wav");
                 jumps = 2;
             }
         });
@@ -55,15 +42,7 @@ public class PlayerController extends Component {
 	
     @Override
     public void onUpdate(double tpf) {
-        /*if (isMoving()) {
-            if (texture.getAnimationChannel() != animWalk) {
-                texture.loopAnimationChannel(animWalk);
-            }
-        } else {
-            if (texture.getAnimationChannel() != animIdle) {
-                texture.loopAnimationChannel(animIdle);
-            }
-        }*/
+       
     }
 
     private boolean isMoving() {
@@ -73,21 +52,20 @@ public class PlayerController extends Component {
 	public void left() {
 		
 		getEntity().setScaleX(-1);
-		physics.setVelocityX(-300);
+		physics.setVelocityX(-250);
 	}
 
 	public void right() {
 		
 		getEntity().setScaleX(1);
-		physics.setVelocityX(300);
+		physics.setVelocityX(250);
 	}
 
 	public void jump() {
 		if (jumps == 0) {
             return;
 		}
-        //play("jump.wav");
-        physics.setVelocityY(-300);
+        physics.setVelocityY(-250);
 
         jumps--;
 	}
@@ -98,9 +76,16 @@ public class PlayerController extends Component {
 
 	
 	public void shoot() {
-		Point2D center = entity.getCenter();
-		Vec2 dir = Vec2.fromAngle(entity.getRotation() + 0);
-		FXGL.spawn("bullet", new SpawnData(center.getX(), center.getY()).put("dir", dir.toPoint2D()));
+		if(shoot==true) {
+			Point2D center = entity.getCenter();
+			Vec2 dir = Vec2.fromAngle(entity.getRotation() + 0);
+			FXGL.spawn("bullet", new SpawnData(center.getX(), center.getY()).put("dir", dir.toPoint2D()));
+		}else {
+			
+		}
+	}
+	public void beableshoot() {
+		shoot=true;
 	}
 }
 
